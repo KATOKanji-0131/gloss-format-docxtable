@@ -19,6 +19,16 @@ pip3 install python-docx
 ```
 
 # Usage
+### 実行方法
+`main.py`, `variables.py`, `example.txt`, `gloss_abbreviation`が同じフォルダにあるようにしてください。
+
+そうしたら、これらが例えば`/Users/hamident0/Desktop/exformat`にある場合、
+```
+$ cd /Users/hamident0/Desktop/exformatcd
+$ python3 main.py 
+```
+でその場所に移動し、実行してください。同じ場所に`example.docx`が生成されます。
+
 ### 例文テキストの準備
 
 ```example.txt
@@ -49,6 +59,14 @@ gl_spcf = r"\\gloss" # グロス行の指定子
 trsl_spcf = r"\\translation" # 訳行の指定子
 ```
 としてください。
+
+### グロス略号の追加・変更
+略号を追加・変更したい場合、`gloss_abbreviations.tsv`に略号とその意味を追加してください。タブ区切りなので、略号と意味はタブで区切ってください。例えば、metasyntactic variableという意味のHOGEという略号を追加したい場合
+```
+HOGE	metasyntactic variable
+```
+のように追記してください。
+
 # Note
 
 * 同一の列にあるセルが全て同じ幅で出力されてしまいます。今後のアップデートで、セルの幅がもっと縮まるように修正します。
@@ -61,6 +79,9 @@ trsl_spcf = r"\\translation" # 訳行の指定子
 * 加藤幹治 KATO, Kanji
 * 東京外国語大学大学院/日本学術振興会特別研究員 TUFS/JSPS
 * jiateng.ganzhi[at]gmail.com
+
+# Acknowledgement
+グロス略号リストの作成にあたっては、「下地理則の研究室　グロスのリスト」 (https://www.mshimoji.com/blank-12) を参照しました。
 
 # License
 "gloss-format-docxtable" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
