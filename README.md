@@ -48,15 +48,15 @@ $ python3 main.py
 ### 行指定子の変更
 どの行を形態素、グロス、訳として読み込むかの指定は`\gla ` `\gla ` `\gla `で行っています。これを例えばそれぞれ`\morpheme`、`\gloss`、`\translation`へ変更したい場合、`variables.py`の
 ```variables.py
-morph_spcf = r"\\gla" # 形態素行の指定子
-gl_spcf = r"\\glb" # グロス行の指定子
-trsl_spcf = r"\\glft" # 訳行の指定子
+morph_spcf = r"\gla" # 形態素行の指定子
+gl_spcf = r"\glb" # グロス行の指定子
+trsl_spcf = r"\glft" # 訳行の指定子
 ```
 という部分を
 ```variables.py
-morph_spcf = r"\\morpheme" # 形態素行の指定子
-gl_spcf = r"\\gloss" # グロス行の指定子
-trsl_spcf = r"\\translation" # 訳行の指定子
+morph_spcf = r"\morpheme" # 形態素行の指定子
+gl_spcf = r"\gloss" # グロス行の指定子
+trsl_spcf = r"\translation" # 訳行の指定子
 ```
 としてください。
 
