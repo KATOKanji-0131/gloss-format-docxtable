@@ -1,0 +1,11 @@
+\gla watasi =wa sensee da
+\glb I =TOP teacher COP
+\glft 私は先生だ
+
+\gla raamen =wa oisii
+\glb ramen =TOP good
+\glft Ramen is good
+
+\gla kono azi =ga ii =ne =to kimi =ga itta kara sitigatu muika =wa sarada kinenbi
+\glb this taste =NOM good =SFP =QUOT you =NOM say.PST because July 6th.day =TOP salad anniversary
+\glft You said `I like the taste', so July 6th is the Salad Anniversary.
