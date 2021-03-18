@@ -24,7 +24,7 @@ pip3 install python-docx
 
 そうしたら、これらが例えば`/Users/hamident0/Desktop/exformat`にある場合、
 ```
-$ cd /Users/hamident0/Desktop/exformatcd
+$ cd /Users/hamident0/Desktop/exformat
 $ python3 main.py 
 ```
 でその場所に移動し、実行してください。同じ場所に`example.docx`が生成されます。
